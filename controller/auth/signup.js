@@ -37,6 +37,8 @@ module.exports.signup = async (req, res) => {
         let participant = new Participant({
           participant_name: user.name,
           participant_id: user._id,
+          lsgi:user.lsgi,
+          localbody:user.localbody,
           event: eventObj.name,
           isarts: true,
           event_id: eventObj._id,
@@ -50,6 +52,8 @@ module.exports.signup = async (req, res) => {
         let participant = new Participant({
           participant_name: user.name,
           participant_id: user._id,
+          lsgi:user.lsgi,
+          localbody:user.localbody,
           event: eventObj.name,
           isarts: false,
           event_id: eventObj._id,
