@@ -277,7 +277,7 @@ module.exports.Localbody = async (req, res) => {
       } else {
         Thrikkakkara_Sports += parseInt(participants[i].score);
       }
-    } else if (participants[i].localbody == "Thripunithura") {
+    } else if (participants[i].localbody == "Thripunithara") {
       Thripunithura += parseInt(participants[i].score);
       if (participants[i].isarts == true) {
         Thripunithura_Arts += parseInt(participants[i].score);
