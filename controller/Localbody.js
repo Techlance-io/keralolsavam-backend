@@ -214,14 +214,7 @@ module.exports.Localbody = async (req, res) => {
       } else {
         Mulanthuruthy_Sports += parseInt(participants[i].score);
       }
-    } else if (participants[i].localbody == "Muvattupuzha") {
-      Muvattupuzha += parseInt(participants[i].score);
-      if (participants[i].isarts == true) {
-        Muvattupuzha_Arts += parseInt(participants[i].score);
-      } else {
-        Muvattupuzha_Sports += parseInt(participants[i].score);
-      }
-    } else if (participants[i].localbody == "Vadavucode") {
+    }  else if (participants[i].localbody == "Vadavucode") {
       Vadavucode += parseInt(participants[i].score);
       if (participants[i].isarts == true) {
         Vadavucode_Arts += parseInt(participants[i].score);
